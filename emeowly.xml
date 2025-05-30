@@ -1,0 +1,37 @@
+<rss version="2.0">
+  <channel>
+    <title>emeowly</title>
+    <link>https://emeowly.gay/</link>
+    <description>Things that I've recently updated.</description>
+    <ttl>1440</ttl>
+
+    <item>
+       <title>new RSS feed</title>
+       <link>https://emeowly.gay/changelog#oct112024</link>
+       <description>finally created an RSS feed for site updates that others can subscribe to!</description>
+       <pubDate>Fri, 11 Oct 2024 18:00:00 -0600</pubDate>
+    </item>
+
+    <item>
+       <title>new features + updates</title>
+       <link>https://emeowly.gay/changelog#oct092024</link>
+       <description>added a music player, view counter, and random pet image to the homepage(refresh to load a new image), made an offical changelog page and updated the beadwork page with new art</description>
+       <pubDate>Wed, 09 Oct 2024 18:00:00 -0600</pubDate>
+    </item>
+
+    <item>
+       <title>new host</title>
+       <link>https://emeowly.gay/changelog#aug152024</link>
+       <description>moved from neocities.org to leprd.space!</description>
+       <pubDate>Thu, 15 Aug 2024 18:00:00 -0600</pubDate>
+    </item>
+
+    <item>
+       <title>site redesign!</title>
+       <link>https://emeowly.gay/changelog#may012024</link>
+       <description>the entire site has been redesigned and published after 5 months!</description>
+       <pubDate>Wed, 01 May 2024 18:00:00 -0600</pubDate>
+    </item>
+    
+  </channel>
+</rss>

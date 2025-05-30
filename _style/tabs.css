@@ -1,0 +1,68 @@
+#tabcont {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 999999999999;
+  & .window {
+    margin: 0 auto;
+    padding: 6px;
+    padding-bottom: 0;
+    border-bottom: 0;
+    box-shadow: inset 1px 1px var(--highlight), inset -1px 0px var(--shadow);
+  }
+}
+
+.tabs-nav ul,
+.tabs-nav li {
+  margin: 0;
+  padding: 0;
+}
+.tabs-nav li:not(.active) {
+  background: var(--window-color-1);
+  box-shadow: inset 1px 1px var(--highlight), inset -1px -1px var(--shadow), 1px 0 var(--shadow);
+  opacity: 1;
+}
+.tabs-nav li:not(.active):hover {
+  background: var(--window-color-2);
+  opacity: 0.7;
+}
+
+.tabs-nav li {
+  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tabs-nav a {
+  display: block;
+  padding: 10px 15px;
+}
+.gala .cont {
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset -1px -1px var(--highlight), inset 1px 0px var(--shadow);
+}
+
+/* Active tab */
+
+.tabs-nav li.active {
+  background: var(--window-bg-color);
+  color: #000;
+  border-bottom: 1px solid var(--window-bg-color);
+  box-shadow: inset -1px 0px var(--highlight), inset 1px 1px var(--shadow);
+}
+
+/* Tab content */
+
+.tabs-content {
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+/* Hide all but first content div */
+
+.tabs-content div:not(:first-child) {
+  display: none;
+}

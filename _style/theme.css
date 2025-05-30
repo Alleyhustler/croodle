@@ -1,0 +1,52 @@
+:root {
+  --background-image: url("../_images/assets/backgroundstatic.png");
+  --background: #7c5abb;
+  --text: #0d0222;
+  --link: #180a96;
+  --link-hover: #b3177f;
+  --window-bg-color: #77b958;
+  --window-color-1: #76cdff;
+  --window-color-2: #d2a1ff;
+  --window-color-3: #ffafe7;
+
+  --chr: #ede8ff;
+  --chr-outline: #6312af;
+
+  --cho: #ffd9f9;
+  --cho-outline: #8b1578;
+
+  --navlinks-hover: #ffa6f3;
+
+  --title-border: #ffffffa1;
+  --button: #ceedff;
+  --buttonhover: #ff6bbc;
+  --buttontext: #280331;
+  --buttonactive: #ff6bbc73;
+
+  --accent: #7d31c4;
+  --accent-hover: #d30082;
+
+  --link-inner: #7226b1;
+  --link-outline: #c42db7;
+  --link-inner-hover: #fcc2ff;
+  --link-outline-hover: #000000;
+
+  --windowsbutton-minmax: #ff98fa;
+  --windowsbutton-close: #b648ff;
+  --windowsbutton-icons: #ebe6ff;
+
+  --scroll-thumb: #bf7aff;
+  --scroll-bg: #95fbff;
+
+  --border-color: #3f0c7a;
+  --accent-color: #7c1796;
+  --highlight: #ffffff71;
+  --shadow: #8932a359;
+  --darkdisplay: inline-block;
+  --lightdisplay: none;
+  --gradient: linear-gradient(-135deg, var(--window-color-1) 0%, var(--window-color-2) 75%, var(--window-color-3) 100%);
+  /* shadows dont touch this is here just to keep the code fucking CLEAN*/
+  --border-radius: ;
+  --shadows-outset: inset 1px 1px var(--highlight), inset -1px -1px var(--shadow), 1px 1px var(--shadow);
+  --shadows-inset: inset -1px -1px var(--highlight), inset 1px 1px var(--shadow);
+}
